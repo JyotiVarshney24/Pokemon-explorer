@@ -1,0 +1,74 @@
+.pokemon-card {
+    background: rgba(216, 228, 235, 0.9);
+    border-radius: 15px;
+    width: 250px;
+    padding: 20px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    backdrop-filter: blur(10px);
+  }
+  
+  .pokemon-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+  }
+  
+  .pokemon-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .pokemon-card h2 {
+    font-size: 1.3rem;
+    margin: 10px 0;
+    font-weight: bold;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+  }
+  
+  .pokemon-card .types {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  
+  .pokemon-card .type {
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 5px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 5px;
+    text-transform: capitalize;
+    transition: transform 0.2s;
+  }
+  
+  .pokemon-card .type:hover {
+    transform: scale(1.1);
+  }
+  
+  .pokemon-card .fire { background-color: #FF5722; color: white; }
+  .pokemon-card .water { background-color: #2196F3; color: white; }
+  .pokemon-card .grass { background-color: #4CAF50; color: white; }
+  .pokemon-card .electric { background-color: #FFEB3B; color: black; }
+  .pokemon-card .psychic { background-color: #9C27B0; color: white; }
+  .pokemon-card .ice { background-color: #00BCD4; color: white; }
+  .pokemon-card .dragon { background-color: #673AB7; color: white; }
+  .pokemon-card .dark { background-color: #212121; color: white; }
+  .pokemon-card .fairy { background-color: #E91E63; color: white; }
+  .pokemon-card .ghost { background-color: #9E9E9E; color: white; }
+  .pokemon-card .bug { background-color: #8BC34A; color: black; }
+  .pokemon-card .normal { background-color: #9E9E9E; color: white; }
+  .pokemon-card .ground { background-color: #FF5722; color: white; }
+  .pokemon-card .poison { background-color: #9C27B0; color: white; }
+  .pokemon-card .rock { background-color: #795548; color: white; }
+  .pokemon-card .fighting { background-color: #F44336; color: white; }
+  .pokemon-card .steel { background-color: #607D8B; color: white; }
+  .pokemon-card .flying { background-color: #03A9F4; color: white; }
+  
